@@ -1,0 +1,13 @@
+# Themes directory of example site; ignored so that we can clone the repo
+# inside the themes directory and test the example site with "hugo server".
+exampleSite/themes/
+
+# Hugo's lock
+.hugo_build.lock
+exampleSite/public/
+
+# Ignore macOS metadata
+.DS_Store
+
+# Vim swap files
+*.swp

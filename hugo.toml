@@ -1,0 +1,49 @@
+baseURL = 'http://waltodders.com'
+languageCode = 'en-us'
+title = 'Todd Walters Blog'
+
+# Syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsStyle = "github-dark"
+pygmentsCodefencesGuessSyntax = true
+
+[[module.imports]]
+  path = "github.com/halogenica/beautifulhugo"
+
+[params]
+  comments = false
+  commit = false
+  dateFormat = "January 2, 2006"
+  delayDisqus = true
+  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
+  favicon = "img/favicon-me.ico"
+  logo = "img/avatar-icon-comic.png" # Expecting square dimensions
+  mainSections = ["post","posts"]
+  readingTime = true
+  rss = true
+  showRelatedPosts = true
+  socialShare = true
+  # useHLJS = true
+  wordCount = true
+  [params.author]
+      name = "Todd Walters"
+      github = "toddwalters"
+      linkedin = "toddwalters"
+      twitter = "toddwalters"
+      website = "https://waltodders.com"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3

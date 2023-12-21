@@ -1,0 +1,5 @@
+# About
+
+Todd A. Walters is an Enterprise Cloud Architect at Eli Lilly and Company.  He is an enterprise IT Infrastructure professional with over twenty-five years of experience working in the Life Sciences industry, developing, deploying and managing IT solutions across the Enterprise IT Landscape. He is focused on the creation of infrastructure and developer-enabling cloud solutions and services in AWS, Azure and GCP. He has broad and versatile experience across Amazon Web Services, Azure, Google Cloud Platform, Red Hat OpenShift Container Platform, VMware vSphere, and Red Hat Enterprise Linux, with a focus on the creation of public and hybrid cloud, IaaS and PaaS services and solutions in highly regulated and quality controlled environments. He is a strong information technology professional with a M.S. in Computer and Information Technology Management from Purdue University, Master of Business Administration - MBA from Anderson University Falls School of Business and Bachelor of Science in Management Information Systems from the Purdue University Krannert School of Management.
+
+![me](http://localhost:1313/img/me.png)
