@@ -1,7 +1,7 @@
 ---
 title: Adventures in Hugo-land
 subtitle: Or How to Spend Your Holiday Break Learning About Hugo and Deploying Your First Site
-date: 2023-12-18
+date: 2023-12-21
 tags: ["hugo", "git", "github", "github actions", "github cli", "github pages", "markdown"]
 ---
 
