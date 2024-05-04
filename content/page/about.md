@@ -211,4 +211,4 @@ Knowledgeable About
 
 * * *
 
-![me](images/me.png)
+![me](../images/me.png)
