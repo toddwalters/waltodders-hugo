@@ -152,6 +152,8 @@ I served as the lead service and sales engineer associated with Checkpoint Firew
 
 ## Education
 
+* * *
+
 ### Purdue University
 
 Master of Science
@@ -183,6 +185,8 @@ August 1989 - May 1994
 * * *
 
 ## Skills
+
+* * *
 
 Programming Languages & Tools
 
