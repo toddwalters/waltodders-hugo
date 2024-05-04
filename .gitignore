@@ -5,9 +5,16 @@ exampleSite/themes/
 # Hugo's lock
 .hugo_build.lock
 exampleSite/public/
+public/
 
 # Ignore macOS metadata
 .DS_Store
 
 # Vim swap files
 *.swp
+
+# Ignore VSCode workspace files
+.vscode/
+
+# Ignore python virtual environment
+venv/
