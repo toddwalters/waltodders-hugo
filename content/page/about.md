@@ -1,3 +1,10 @@
+
+---
+title: "About"
+date: 2024-05-27T10:56:18-04:00
+layout: "about"
+---
+
 # About
 
 As an Enterprise Cloud Architect at Eli Lilly and Company, I have over 20 years of experience in the life sciences industry, designing, developing, and managing IT solutions across the Enterprise IT Landscape. Eli Lilly is a global leader in pharmaceutical innovation, and I am proud to support its vision and values by leveraging cloud technologies and platforms to enable business agility, efficiency, and security.
