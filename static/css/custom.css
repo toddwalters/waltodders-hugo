@@ -1,4 +1,10 @@
 /* static/css/custom.css */
+/* static/css/custom.css */
+.about-page {
+    padding: 20px;  /* Adjust the padding as needed */
+    margin: auto;
+    max-width: 800px;  /* Optional: to limit the maximum width of the content */
+}
 .social-links {
     list-style: none;
     padding: 0;
