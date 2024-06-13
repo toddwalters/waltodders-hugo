@@ -1,5 +1,5 @@
 ---
-title: It's Been A While
+title: It's Deep Learning All The Way Down
 date: 2024-06-09
 tags: ["genai", "llm", "deep-learning", "anthropic", "embedding"]
 ---
