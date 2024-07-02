@@ -158,7 +158,7 @@ The impact of the attack is
 
 **Summary:** The article explores the use of large language models (LLMs) in the financial domain, highlighting their potential to revolutionize traditional practices and drive innovation by leveraging advanced technologies like contextual understanding, transfer learning flexibility, and emotion detection. It categorizes existing literature into key application areas such as linguistic tasks, sentiment analysis, financial time series, reasoning, and agent-based modeling, discussing specific methodologies like textual analysis and forecasting. The study also provides a collection of datasets, model assets, and codes for researchers and outlines
 
-**Tags:** *\#llm, \#machine-learning, \#finance, \#use-cases*
+**Tags:** *\#llm, \#machine-learning, \#fin-ops, \#use-cases*
 
 ## [Researchers upend AI status quo by eliminating matrix multiplication in LLMs | Ars Technica](https://arstechnica.com/information-technology/2024/06/researchers-upend-ai-status-quo-by-eliminating-matrix-multiplication-in-llms/)
 
