@@ -10,8 +10,7 @@ Something I did decide to do based on having all of these articles, was to creat
 
 -----
 
-## Table of Contents
-- [Table of Contents](#table-of-contents)
+**Table of Contents**
 - [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning)
   - [Networking capabilities optimize traffic for generative AI apps](#networking-capabilities-optimize-traffic-for-generative-ai-apps)
   - [Introducing Apple’s On-Device and Server Foundation Models](#introducing-apples-on-device-and-server-foundation-models)
