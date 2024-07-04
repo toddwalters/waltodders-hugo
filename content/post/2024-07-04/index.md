@@ -4,7 +4,19 @@ date: 2024-07-03T21:40:21
 tags: ["agi", "ai", "ai-optimization", "ai-security", "automation", "azure", "bias", "cloud", "data-science", "deep-learning", "developer-experience", "docker", "ethical-ai", "generative-ai", "github", "jupyter-notebook", "llm", "machine-learning", "markdown", "nlp", "openai", "privacy", "projects", "python", "rag", "responsible-ai", "security", "tools"]
 ---
 
-# Articles Summary
+**Table of Contents**
+- [Mitigating Skeleton Key, a new type of generative AI jailbreak technique | Microsoft Security Blog](#mitigating-skeleton-key-a-new-type-of-generative-ai-jailbreak-technique--microsoft-security-blog)
+- [The Five Stages Of AI Grief - NOEMA](#the-five-stages-of-ai-grief---noema)
+- [Using Generative AI to Create Runnable Markdown | Docker](#using-generative-ai-to-create-runnable-markdown--docker)
+- [GitHub - posit-dev/positron: Positron, a next-generation data science IDE](#github---posit-devpositron-positron-a-next-generation-data-science-ide)
+- [Quill - AI-powered SEC filing platform](#quill---ai-powered-sec-filing-platform)
+- [GPT4All](#gpt4all)
+- [A discussion of discussions on AI bias](#a-discussion-of-discussions-on-ai-bias)
+- [RouteLLM: An Open-Source Framework for Cost-Effective LLM Routing | LMSYS Org](#routellm-an-open-source-framework-for-cost-effective-llm-routing--lmsys-org)
+- [GitHub - squaredtechnologies/thread: AI-Powered Jupyter Notebook built using React](#github---squaredtechnologiesthread-ai-powered-jupyter-notebook-built-using-react)
+- [AI Patterns – tecosystems](#ai-patterns--tecosystems)
+- [Meet Verba 1.0: Run State-of-the-Art RAG Locally with Ollama Integration and Open Source Models - MarkTechPost](#meet-verba-10-run-state-of-the-art-rag-locally-with-ollama-integration-and-open-source-models---marktechpost)
+
 
 ### [Mitigating Skeleton Key, a new type of generative AI jailbreak technique | Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2024/06/26/mitigating-skeleton-key-a-new-type-of-generative-ai-jailbreak-technique/)
 
