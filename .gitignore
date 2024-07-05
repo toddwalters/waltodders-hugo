@@ -23,5 +23,6 @@ venv/
 .env
 
 # omnivoreQL script files
-processed_articles.csv
-articles.json
+scripts/processed_articles.csv
+scripts/articles.json
+scripts/index.md
