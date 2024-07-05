@@ -18,3 +18,10 @@ public/
 
 # Ignore python virtual environment
 venv/
+
+# Ignore .env file
+.env
+
+# omnivoreQL script files
+processed_articles.csv
+articles.json
