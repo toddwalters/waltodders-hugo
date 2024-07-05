@@ -26,3 +26,4 @@ venv/
 scripts/processed_articles.csv
 scripts/articles.json
 scripts/index.md
+scripts/arcv/
