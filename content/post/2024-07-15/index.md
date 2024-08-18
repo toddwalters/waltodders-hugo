@@ -7,6 +7,7 @@ tags: ["access-management", "agi", "ai", "ai-agents", "ai-cloud", "ai-governance
 Just a whole lotta links this time around.  Didn't have a chance to really dig into any of them to provide any kind of commentary or thoughts or opinions.  Some good state-of-ai think pieces here, a handful of potential learning projects and some AWS cloud related articles this time around, that I definately want to dig into some more.  
 
 **Table of Contents**
+
 - [**AI and Machine Learning**](#ai-and-machine-learning)
   - [Preliminary Notes on the Delvish Dialect, by Bruce Sterling | by Bruce Sterling | Jul, 2024 | Medium](#preliminary-notes-on-the-delvish-dialect-by-bruce-sterling--by-bruce-sterling--jul-2024--medium)
   - [us-state-of-gen-ai-report-q2](#us-state-of-gen-ai-report-q2)
