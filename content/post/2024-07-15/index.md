@@ -1,7 +1,7 @@
 ---
 title: Where Did All The Time Go?
 date: 2024-07-15T20:01:17
-tags: ["access-management", "agi", "ai", "ai-agents", "ai-cloud", "ai-governance", "ai-in-biomedicine", "ai-optimization", "ai-reliability", "ai-security", "ai-toolkit", "amazon-s3", "amazon-ses", "anthropic", "automation", "aws", "aws-s3", "aws-whoami", "azure", "bastion-host", "biomedical-sciences", "biotech-innovation", "books", "breakthroughs", "building-trust", "business-transformation", "career-advice", "cicd", "claude", "cli", "clinical-trials", "cloud", "cloud-computing", "cost-tracking", "crewAI", "critical-thinking", "cyber-security", "data-access", "data-integration", "data-science", "data-security", "declarative-configuration", "deep-learning", "deepmind", "deepnote", "default-tags", "dev-ops", "developer-experience", "docker", "ec2", "ec2-tagging", "education", "eigenvalues", "email-forwarding", "enterprise-architecture", "ethica-ai", "ethical-ai", "evolving-workforce", "exemplars", "experimental-biology", "feature-engineering", "few-shot", "gcp", "gene-therapy", "generative-ai", "genomics", "github", "github-actions", "github-repo", "go", "goodreads", "gpt-4", "healthcare-advancements", "human-nature", "iac", "iam", "identity-and-access-management", "identity-management", "information-retrieval", "journaling-prompts", "json", "knowledge", "knowledge-graphs", "knowledge-management", "lambda", "lambda-function", "langchain", "language-model", "learning", "life-changing", "linear-algebra", "linux", "llama", "llm", "machine-learning", "matrices", "mental-models", "meta", "model-optimization", "model-training", "models", "multi-agent-systems", "multimodal-learning", "neural-networks", "newsletter", "nlp", "note-taking", "obsidian", "ollama", "omnics", "open-source", "openai", "optimization"]
+tags: ["ai", "llm", "aws", "security", "machine-learning"]
 ---
 
 Just a whole lotta links this time around.  Didn't have a chance to really dig into any of them to provide any kind of commentary or thoughts or opinions.  Some good state-of-ai think pieces here, a handful of potential learning projects and some AWS cloud related articles this time around, that I definately want to dig into some more.  
@@ -37,11 +37,11 @@ Just a whole lotta links this time around.  Didn't have a chance to really dig i
 
 ## **AI and Machine Learning**
 
-**Category Tags:** #agi, #ai, #ai-agents, #ai-governance, #ai-optimization, #ai-reliability, #ai-security, #ai-toolkit, #anthropic, #automation, #aws, #building-trust, #business-transformation, #claude, #cloud, #cloud-computing, #crewAI, #data-science, #data-security, #deep-learning, #deepmind, #deepnote, #developer-experience, #eigenvalues, #ethica-ai, #ethical-ai, #evolving-workforce, #feature-engineering, #gcp, #generative-ai, #github, #gpt-4, #information-retrieval, #langchain, #language-model, #linear-algebra, #llama, #llm, #machine-learning, #matrices, #meta, #model-optimization, #model-training, #models, #multi-agent-systems, #multimodal-learning, #neural-networks, #nlp, #ollama, #open-source, #openai, #optimization, #productivity-improvement, #projects, #prompt-engineering, #python, #rag, #recommendation-systems, #research, #research-paper, #responsible-ai, #retrieval-augmented-generation, #scaling-ai, #technology-management, #training-data, #value-creation, #vector-space, #visual-studio-code, #windows-11
+**Category Tags:** #ai, #llm, #machine-learning, #generative-ai, #deep-learning
 
 ### [Preliminary Notes on the Delvish Dialect, by Bruce Sterling | by Bruce Sterling | Jul, 2024 | Medium](https://bruces.medium.com/preliminary-notes-on-the-delvish-dialect-by-bruce-sterling-ce68a476247b)
 
-**Tags:** *#llm, #machine-learning, #deep-learning, #ai, #generative-ai, #ethical-ai, #python, #nlp, #openai, #rag*
+**Tags:** *#llm, #ai, #generative-ai, #machine-learning, #nlp*
 
 **Site Name:** Medium
 
@@ -51,7 +51,7 @@ Just a whole lotta links this time around.  Didn't have a chance to really dig i
 
 ### [us-state-of-gen-ai-report-q2](https://storage.googleapis.com/omnivore/u/554e05cf-049d-435b-8ba3-fa22bd56df75/us-state-of-gen-ai-report-q2.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=omnivore-production%40appspot.gserviceaccount.com%2F20240715%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240715T235545Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=b585559baa19da27623b97559bdbad7343ef2779edd0b96836fc5de6711b4cd9fb04a4bf3870625322ff6c42b2c1acfc81a10425d4f310e81659b4ccc56974685d5e214a6d04dca9b01f6410a328cfb836dbdd37f97a4c571b330c23b2cd23901a8b0143c248b497a747382484f9b901dff2dd2f84bfa8233b9e094f8a5a2532ab68ad5c291015bb1ccdb558dd651b4391c8dd9f9baa775320988737bdb20fe87a02cbefb67ee4aea6ec23e2c878cb04367277607f5f66573ea1896a731e444e091194e09f233947d88fade654fabd47132709ea4fc2dc1d7fcb68cdb44e8b2381084ee833dbddd9ec3d33df4276e5b82d93201680591592e0a27fadf67df8dd)
 
-**Tags:** *#ai, #generative-ai, #value-creation, #scaling-ai, #building-trust, #evolving-workforce, #data-security, #technology-management, #business-transformation, #productivity-improvement*
+**Tags:** *#generative-ai, #business-transformation, #productivity-improvement, #building-trust, #data-security*
 
 **Site Name:** None
 
@@ -61,7 +61,7 @@ Just a whole lotta links this time around.  Didn't have a chance to really dig i
 
 ### [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision | Tri Dao](https://tridao.me/blog/2024/flash3/)
 
-**Tags:** *#ai, #machine-learning, #deep-learning, #llm, #nlp, #gpt-4, #gcp, #python, #data-science, #cloud-computing*
+**Tags:** *#llm, #deep-learning, #machine-learning, #ai, #nlp*
 
 **Site Name:** tridao.me
 
@@ -71,7 +71,7 @@ Just a whole lotta links this time around.  Didn't have a chance to really dig i
 
 ### [The AI summer — Benedict Evans](https://www.ben-evans.com/benedictevans/2024/7/9/the-ai-summer)
 
-**Tags:** *#ai, #ai-security, #automation, #generative-ai, #gpt-4, #llm, #machine-learning, #nlp, #openai, #projects*
+**Tags:** *#ai, #generative-ai, #llm, #gpt-4, #openai*
 
 **Site Name:** Benedict Evans
 
@@ -81,7 +81,7 @@ Just a whole lotta links this time around.  Didn't have a chance to really dig i
 
 ### [AI Conundrums – tecosystems](https://redmonk.com/sogrady/2024/07/03/ai-conundrums/)
 
-**Tags:** *#ai, #ai-governance, #ai-optimization, #ai-reliability, #ai-security, #cloud, #deep-learning, #generative-ai, #open-source, #training-data*
+**Tags:** *#ai, #ai-governance, #ai-reliability, #ai-security, #generative-ai*
 
 **Site Name:** tecosystems
 
@@ -91,7 +91,7 @@ Just a whole lotta links this time around.  Didn't have a chance to really dig i
 
 ### [Prompt engineering techniques and best practices: Learn by doing with Anthropic’s Claude 3 on Amazon Bedrock | AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/prompt-engineering-techniques-and-best-practices-learn-by-doing-with-anthropics-claude-3-on-amazon-bedrock/)
 
-**Tags:** *#anthropic, #aws, #claude, #prompt-engineering, #generative-ai, #llm, #machine-learning, #nlp, #cloud-computing, #ai-optimization*
+**Tags:** *#anthropic, #aws, #claude, #prompt-engineering, #llm*
 
 **Site Name:** Amazon Web Services
 
@@ -101,7 +101,7 @@ Just a whole lotta links this time around.  Didn't have a chance to really dig i
 
 ### [Superintelligence—10 years later - by Conrad Gray](https://www.humanityredefined.com/p/superintelligence10-years-later)
 
-**Tags:** *#ai, #ai-governance, #ai-reliability, #ai-security, #agi, #anthropic, #automation, #gpt-4, #machine-learning, #responsible-ai*
+**Tags:** *#agi, #ai, #ai-governance, #ai-reliability, #responsible-ai*
 
 **Site Name:** Humanity Redefined
 
@@ -111,7 +111,7 @@ Just a whole lotta links this time around.  Didn't have a chance to really dig i
 
 ### [[2402.14905] MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases](https://arxiv.org/abs/2402.14905)
 
-**Tags:** *#llm, #meta, #research-paper, #machine-learning, #deep-learning, #generative-ai, #gpt-4, #cloud, #cloud-computing, #ai-optimization*
+**Tags:** *#llm, #research-paper, #machine-learning, #deep-learning, #ai-optimization*
 
 **Site Name:** arXiv.org
 
@@ -121,7 +121,7 @@ Just a whole lotta links this time around.  Didn't have a chance to really dig i
 
 ### [2406.17711v1](https://storage.googleapis.com/omnivore/u/1934bfee-02b8-41c6-91ef-bc36d1bd5d10/2406.17711v1.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=omnivore-production%40appspot.gserviceaccount.com%2F20240715%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240715T235545Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=261ee259d0c7a8f481d88416385ddd614d580ffed2b277220f0eb921a2fa324c76c5fb129b9ae29f1df928bab90248abdc253aa5bdd2b2d9eb08734a53297166361ebd3553ff4677e3a1cf0d6c1f6042bcd5364a1ded5e80d22de697da451eca46e89b1a913ba83d16ae87a37aa58d7ce5d6446d4fedb22836c7f630352e3df747ed841649714bb2d1d74eac70e1c15a61b4c510b6e31e21628e264f45f3d062edbb9243a9d11e6b1133ad11fb869d1625c92c79291da879f7cc0cc861686d6e525159e13f84224edb5edb70bfa1212e11eb30ca805b24975200a46cf8306d8515d03f648a9e4f3aec248a608d8c59d9fb78aafcc0d8fa721dd9b8390c05212d)
 
-**Tags:** *#ai, #deepmind, #research-paper, #deep-learning, #machine-learning, #data-science, #model-optimization, #model-training, #multimodal-learning, #neural-networks*
+**Tags:** *#research-paper, #multimodal-learning, #machine-learning, #model-training, #deep-learning*
 
 **Site Name:** None
 
@@ -131,7 +131,7 @@ Just a whole lotta links this time around.  Didn't have a chance to really dig i
 
 ### [Linear Algebra Concepts Every Data Scientist Should Know | by Benedict Neo | bitgrit Data Science Publication | Jun, 2024 | Medium](https://medium.com/bitgrit-data-science-publication/linear-algebra-concepts-every-data-scientist-should-know-18b00bd453dd)
 
-**Tags:** *#data-science, #machine-learning, #linear-algebra, #optimization, #feature-engineering, #recommendation-systems, #deepnote, #matrices, #vector-space, #eigenvalues*
+**Tags:** *#data-science, #machine-learning, #linear-algebra, #matrices, #vector-space*
 
 **Site Name:** bitgrit Data Science Publication
 
@@ -153,7 +153,7 @@ Matrix
 
 ### [Multi AI Agent Systems 101. Automating Routine Tasks in Data Source… | by Mariya Mansurova | Jun, 2024 | Towards Data Science](https://towardsdatascience.com/multi-ai-agent-systems-101-bac58e3bcc47?gi=4dd957d4452d)
 
-**Tags:** *#ai-agents, #llm, #rag, #multi-agent-systems, #automation, #data-science, #deep-learning, #langchain, #crewAI, #openai*
+**Tags:** *#ai-agents, #multi-agent-systems, #llm, #automation, #rag*
 
 **Site Name:** Towards Data Science
 
@@ -163,7 +163,7 @@ Matrix
 
 ### [How To Run Llama 3 In Visual Studio Code — A Step-By-Step Guide | by Jim Clyde Monge | Generative AI](https://generativeai.pub/how-to-run-llama-3-in-visual-studio-code-with-codegpt-18cb105cf9d5?gi=1738c83f1552)
 
-**Tags:** *#llama, #llm, #projects, #visual-studio-code, #meta, #open-source, #language-model, #ollama, #windows-11, #ai*
+**Tags:** *#llama, #llm, #visual-studio-code, #open-source, #ollama*
 
 **Site Name:** Generative AI
 
@@ -173,7 +173,7 @@ Matrix
 
 ### [Gradually, then Suddenly: Upon the Threshold](https://www.oneusefulthing.org/p/gradually-then-suddenly-upon-the)
 
-**Tags:** *#ai, #ai-optimization, #ai-reliability, #ai-security, #automation, #claude, #gpt-4, #deep-learning, #ethica-ai, #data-science*
+**Tags:** *#ai, #ai-optimization, #ai-reliability, #gpt-4, #claude*
 
 **Site Name:** One Useful Thing
 
@@ -183,7 +183,7 @@ Matrix
 
 ### [GitHub - karpathy/LLM101n: LLM101n: Let's build a Storyteller](https://github.com/karpathy/LLM101n)
 
-**Tags:** *#github, #llm, #projects, #ai, #generative-ai, #deep-learning, #python, #cloud-computing, #cloud, #developer-experience*
+**Tags:** *#github, #llm, #projects, #python, #generative-ai*
 
 **Site Name:** GitHub
 
@@ -193,7 +193,7 @@ Matrix
 
 ### [Meet Verba 1.0: Run State-of-the-Art RAG Locally with Ollama Integration and Open Source Models - MarkTechPost](https://www.marktechpost.com/2024/05/19/meet-verba-1-0-run-state-of-the-art-rag-locally-with-ollama-integration-and-open-source-models/?amp=)
 
-**Tags:** *#rag, #llm, #github, #projects, #retrieval-augmented-generation, #ai, #information-retrieval, #research, #ai-toolkit, #models*
+**Tags:** *#rag, #llm, #retrieval-augmented-generation, #information-retrieval, #ai-toolkit*
 
 **Site Name:** MarkTechPost
 
@@ -205,11 +205,11 @@ Matrix
 
 ## **Cloud Computing and Security**
 
-**Category Tags:** #access-management, #amazon-s3, #amazon-ses, #automation, #aws, #aws-s3, #aws-whoami, #bastion-host, #cli, #cloud, #cloud-computing, #cyber-security, #data-access, #data-integration, #dev-ops, #developer-experience, #docker, #ec2, #email-forwarding, #enterprise-architecture, #ethical-ai, #github, #github-actions, #go, #iam, #identity-and-access-management, #identity-management, #json, #lambda, #lambda-function, #linux, #machine-learning, #projects, #python, #responsible-ai, #security, #serverless-computing, #session-manager, #single-sign-on, #terraform, #vpc
+**Category Tags:** #aws, #security, #cloud-computing, #identity-management, #automation
 
 ### [Strategies for achieving least privilege at scale – Part 2 | AWS Security Blog](https://aws.amazon.com/blogs/security/strategies-for-achieving-least-privilege-at-scale-part-2/)
 
-**Tags:** *#aws, #cyber-security, #cloud-computing, #security, #developer-experience, #python, #automation, #ethical-ai, #responsible-ai, #projects*
+**Tags:** *#aws, #security, #cloud-computing, #cyber-security, #automation*
 
 **Site Name:** Amazon Web Services
 
@@ -219,7 +219,7 @@ Matrix
 
 ### [Strategies for achieving least privilege at scale – Part 1 | AWS Security Blog](https://aws.amazon.com/blogs/security/strategies-for-achieving-least-privilege-at-scale-part-1/)
 
-**Tags:** *#aws, #security, #cloud, #cloud-computing, #dev-ops, #enterprise-architecture, #automation, #developer-experience, #machine-learning, #identity-and-access-management*
+**Tags:** *#aws, #security, #cloud-computing, #identity-and-access-management, #automation*
 
 **Site Name:** Amazon Web Services
 
@@ -229,7 +229,7 @@ Matrix
 
 ### [secured-bastion-host-terraform/README.md at main · aws-samples/secured-bastion-host-terraform · GitHub](https://github.com/aws-samples/secured-bastion-host-terraform/blob/main/README.md)
 
-**Tags:** *#aws, #ec2, #bastion-host, #iam, #session-manager, #terraform, #vpc, #security, #linux, #cloud-computing*
+**Tags:** *#aws, #ec2, #bastion-host, #terraform, #vpc*
 
 **Site Name:** github.com
 
@@ -242,7 +242,7 @@ to such server.
 
 ### [Access AWS services programmatically using trusted identity propagation | AWS Security Blog](https://aws.amazon.com/blogs/security/access-aws-services-programmatically-using-trusted-identity-propagation/)
 
-**Tags:** *#aws, #security, #single-sign-on, #identity-management, #cli, #data-access, #cloud-computing, #data-integration, #access-management, #amazon-s3*
+**Tags:** *#aws, #security, #identity-management, #single-sign-on, #access-management*
 
 **Site Name:** Amazon Web Services
 
@@ -252,7 +252,7 @@ to such server.
 
 ### [bullfrog/README.md at main · bullfrogsec/bullfrog · GitHub](https://github.com/bullfrogsec/bullfrog/blob/main/README.md)
 
-**Tags:** *#github, #github-actions, #security, #cloud-computing, #cloud, #automation, #aws, #docker, #developer-experience*
+**Tags:** *#github, #github-actions, #security, #aws, #automation*
 
 **Site Name:** GitHub
 
@@ -262,7 +262,7 @@ to such server.
 
 ### [aws-whoami-golang/README.md at main · benkehoe/aws-whoami-golang · GitHub](https://github.com/benkehoe/aws-whoami-golang/blob/main/README.md)
 
-**Tags:** *#aws, #github, #aws-whoami, #go, #cloud-computing, #cli, #developer-experience, #json, #security, #iam*
+**Tags:** *#aws, #aws-whoami, #go, #cli, #iam*
 
 **Site Name:** GitHub
 
@@ -272,7 +272,7 @@ to such server.
 
 ### [Forward Incoming Email to an External Destination | AWS Messaging & Targeting Blog](https://aws.amazon.com/blogs/messaging-and-targeting/forward-incoming-email-to-an-external-destination/)
 
-**Tags:** *#aws, #amazon-ses, #lambda, #cloud-computing, #cloud, #aws-s3, #iam, #serverless-computing, #email-forwarding, #lambda-function*
+**Tags:** *#aws, #amazon-ses, #lambda, #email-forwarding, #serverless-computing*
 
 **Site Name:** Amazon Web Services
 

@@ -88,7 +88,7 @@
           </div>
           {{ else }}
           <div class="disqus-comments">
-            {{ template "_internal/disqus.html" . }}
+            {{/* Hugo v0.158 no longer ships the legacy embedded Disqus template. */}}
           </div>
           {{ end }}
         {{ end }}
