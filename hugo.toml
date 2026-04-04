@@ -2,6 +2,13 @@ baseURL = 'http://waltodders.com'
 languageCode = 'en-us'
 title = 'Todd Walters Blog'
 
+[author]
+  name = "Todd Walters"
+  github = "toddwalters"
+  linkedin = "toddwalters"
+  twitter = "toddwalters"
+  website = "https://waltodders.com"
+
 # Syntax highlighting
 pygmentsCodeFences = true
 pygmentsUseClasses = true

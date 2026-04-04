@@ -1,7 +1,7 @@
 ---
 title: Born on the 4th of July
 date: 2024-07-03T21:40:21
-tags: ["agi", "ai", "ai-optimization", "ai-security", "automation", "azure", "bias", "cloud", "data-science", "deep-learning", "developer-experience", "docker", "ethical-ai", "generative-ai", "github", "jupyter-notebook", "llm", "machine-learning", "markdown", "nlp", "openai", "privacy", "projects", "python", "rag", "responsible-ai", "security", "tools"]
+tags: ["ai", "llm", "developer-experience", "responsible-ai", "data-science"]
 ---
 
 As in this post was born on the 4th of July.  Nothing more than that.  Just a dumb title to a silly link post for the holiday.  I actually had a chance to read through and have thoughts on some of these articles, there's that as well.  Enjoy.
@@ -28,7 +28,7 @@ As in this post was born on the 4th of July.  Nothing more than that.  Just a du
 
 ## Artificial Intelligence and Machine Learning
 
-**Category Tags:** #ai, #agi, #ai-optimization, #machine-learning, #deep-learning, #nlp, #generative-ai
+**Category Tags:** #ai, #machine-learning, #deep-learning, #nlp, #generative-ai
 
 ### [The Five Stages Of AI Grief - NOEMA](https://www.noemamag.com/the-five-stages-of-ai-grief/)
 
@@ -92,7 +92,7 @@ Great article.  I found several points raised within the article intriguing:
 
 ## Development and Programming
 
-**Category Tags:** #python, #developer-experience, #jupyter-notebook, #markdown, #projects, #tools
+**Category Tags:** #python, #developer-experience, #jupyter-notebook, #projects, #tools
 
 ### [Meet Verba 1.0: Run State-of-the-Art RAG Locally with Ollama Integration and Open Source Models - MarkTechPost](https://www.marktechpost.com/2024/05/19/meet-verba-1-0-run-state-of-the-art-rag-locally-with-ollama-integration-and-open-source-models/?amp=)
 
@@ -174,7 +174,7 @@ Putting it in my projects to try queue to try out.
 
 ## Cybersecurity and Responsible AI
 
-**Category Tags:** #i-security, #responsible-ai, #ethical-ai, #privacy, #security, #bias
+**Category Tags:** #ai-security, #responsible-ai, #ethical-ai, #privacy, #security
 
 ### [Mitigating Skeleton Key, a new type of generative AI jailbreak technique | Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2024/06/26/mitigating-skeleton-key-a-new-type-of-generative-ai-jailbreak-technique/)
 

@@ -2,7 +2,7 @@
 title: Adventures in Hugo-land
 subtitle: Or How to Spend Your Holiday Break Learning About Hugo and Deploying Your First Site
 date: 2023-12-21
-tags: ["hugo", "git", "github", "github actions", "github cli", "github pages", "markdown"]
+tags: ["hugo", "git", "github", "github actions", "github pages"]
 ---
 
 Are you bored of the same old Christmas traditions? Do you want to spice up your holiday season with some geeky fun? If so, you might want to try learning about Hugo and creating and deploying your first Hugo site to GitHub Pages!

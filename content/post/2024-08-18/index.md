@@ -1,7 +1,7 @@
 ---
 title: Dog Days of Summer, What Does It Mean?
 date: 2024-08-18T13:35:05
-tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliability", "ai-security", "anthopic", "anthropic", "api-keys", "api-reliability", "api-security", "apple", "application-security", "architecture", "artificial-intelligence", "attention-mechanism", "attribute-based-access-control", "authentication", "authentication-methods", "authorization", "automation", "aws", "aws-secrets-manager", "aws-security", "azure", "biometric-authentication", "boosting", "causal-ai", "ci-cd", "cicd", "ciso", "clgob", "cli-tools", "cloud", "cloud-computing", "cloud-security", "coding", "command-line", "command-line-utility", "conda", "configuration", "coreml", "cryptography", "cyber-security", "cybersecurity", "data-science", "data-security", "data-structures", "decision-tree", "deep-learning", "dependency-management", "developer-experience", "developer-experience", "developer-productivity", "development", "development-tools", "devops", "devx", "docker", "drug-development", "editor", "embedding", "ensemble-learning", "enterprise-architecture", "enterprise-research", "ethical-ai", "fast-installer", "fish", "gcp", "generative-ai", "genetic-research", "git", "github", "github-actions", "github-copilot", "gitlab-ci-cd", "gpt-3.5-turbo", "gpt-4", "gpt-4v", "graph-machine-learning", "groq", "group-management", "hashicorp", "high-confidence", "http-sessions", "iaas", "iac", "iac-tools", "identity-management", "infrastructure-as-code", "integration-architecture", "ios", "json", "json-web-token", "key-management", "kubernetes", "language-model-architecture", "large-language-models", "llm", "llm2sh", "machine-learning", "machine-to-machine-authentication", "macos", "math-of-transformers", "mathematical-algorithms", "microsoft-research", "model-autonomy", "multifactor-authentication", "multimodal-data", "neovim", "neural-networks", "nlp", "oauth-2-0", "openai", "openid-connect", "package-installer", "package-management", "pattern-recognition", "pip", "policy-management", "predictive-text", "preparedness-framework", "private-datasets", "project-management", "projects", "python", "python-environments", "python-package", "rag", "red-teaming", "requirements", "responsible-ai", "reverse-engineering", "risk-evaluation", "role-based-access-control", "rust", "salary", "security", "security", "selected from available tags", "shell", "shell-commands", "sklearn", "stack-overflow", "survey", "terminal", "terraform", "text-embeddings", "tokens", "tools", "transformer-architecture", "transformer-language-model", "transformers", "user-management", "uv", "virtualenv", "vscode-ai", "web-cookies", "webdev", "yolo-mode"]
+tags: ["terraform", "ai", "security", "python", "developer-productivity"]
 ---
 
 > According to the Farmers’ Almanac, the phrase originated in ancient Roman times. The Romans noticed that the star they called Sirius, the Dog Star, was in conjunction with the sun in late July. They believed the Dog Star’s brightness made things hotter on Earth during the late summer months. So, they named this period diēs caniculārēs, or “days of the dog star,” which was later shortened to “dog days." - As quoted from *Saturday 17-Aug-2024* **Morning Brew Newsletter**, who apparently got it from the **Farmers' Almanac**
@@ -53,11 +53,11 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ## Terraform
 
-**Category Tags:** #ai-security, #api-reliability, #api-security, #architecture, #automation, #aws, #aws-secrets-manager, #azure, #ci-cd, #ciso, #cloud, #cloud-computing, #cloud-security, #coding-best-practices, #cyber-security, #data-science, #data-security, #data-structures, #deep-learning, #dependency-management, #developer-experience, #development-tools, #devops, #enterprise-architecture, #ethical-ai, #fast-installer, #gcp, #github, #github-actions, #gitlab-ci-cd, #group-management, #hashicorp, #high-confidence, #iaas, #iac, #iac-tools, #identity-management, #infrastructure-as-code, #integration-architecture, #json, #key-management, #machine-to-machine-authentication,  #package-installer, #policy-management, #project-management, #python, #python-package, #rust, #security, #terraform, #user-management, #uv
+**Category Tags:** #terraform, #infrastructure-as-code, #security, #aws, #automation
 
 ### [Terraform Functions And Expressions Explained | Build5Nines](https://build5nines.com/terraform-functions-and-expressions-explained/)
 
-**Tags:** *#terraform, #hashicorp, #iaas, #infrastructure-as-code, #aws, #azure, #gcp, #automation, #data-structures, #json*
+**Tags:** *#terraform, #hashicorp, #infrastructure-as-code, #data-structures, #json*
 
 **Site Name:** Build5Nines
 
@@ -67,7 +67,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Fwd: Dynamic Terraform Configurations with try and for_each Functions](https://omnivore.app/no_url?q=66a92214-8c62-40dd-8365-5d8704fec857)
 
-**Tags:** *#terraform, #azure, #cloud, #security, #cloud-computing, #automation, #aws, #data-science, #developer-experience, #coding-best-practices*
+**Tags:** *#terraform, #automation, #security, #cloud-computing, #coding-best-practices*
 
 **Site Name:** omnivore.app
 
@@ -77,7 +77,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [terraform-pr-commenter/README.md at master · robburger/terraform-pr-commenter · GitHub](https://github.com/robburger/terraform-pr-commenter/blob/master/README.md)
 
-**Tags:** *#github-actions, #terraform, #aws, #cloud, #cloud-computing, #cyber-security, #data-science, #deep-learning, #developer-experience, #ethical-ai*
+**Tags:** *#github-actions, #terraform, #aws, #automation, #developer-experience*
 
 **Site Name:** github.com
 
@@ -87,7 +87,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Top Terraform Tools to Know in 2024 | by env0 Team | env0 | Medium](https://medium.com/env0/top-terraform-tools-to-know-in-2024-a00a232bb936)
 
-**Tags:** *#terraform, #ai-security, #aws, #azure, #cloud, #cloud-computing, #cyber-security, #infrastructure-as-code, #iac-tools, #security
+**Tags:** *#terraform, #infrastructure-as-code, #iac-tools, #security, #cloud-computing*
 
 **Site Name:** env0
 
@@ -97,7 +97,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Topic of the Week - Infrastructure as Code (IaC) Security in 2024](https://www.cloudsecuritynewsletter.com/p/infrastructure-code-iac-security-2024)
 
-**Tags:** *#terraform, #security, #cloud-security, #infrastructure-as-code, #iac, #aws, #azure, #gcp, #cloud-computing, #ciso*
+**Tags:** *#terraform, #infrastructure-as-code, #security, #cloud-security, #iac*
 
 **Site Name:** cloudsecuritynewsletter.com
 
@@ -107,7 +107,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Issue #183 - Terraform Variable Cross Validation, 3 Use-cases for Terraform, LLRT Lambdas, Terraform Roadmap, Terramate](https://www.weekly.tf/p/issue-183-terraform-variable-cross-validation-3-use-cases-for-terraform-llrt-roadmap-terramate)
 
-**Tags:** *#terraform, #cloud, #cloud-computing, #aws, #azure, #github, #github-actions, #gitlab-ci-cd, #infrastructure-as-code, #automation*
+**Tags:** *#terraform, #infrastructure-as-code, #automation, #github-actions, #aws*
 
 **Site Name:** weekly.tf
 
@@ -117,7 +117,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [aws-ia/iam-identity-center/aws | Terraform Registry](https://registry.terraform.io/modules/aws-ia/iam-identity-center/aws/latest)
 
-**Tags:** *#aws, #terraform, #identity-management, #automation, #cloud-computing, #data-security, #user-management, #devops, #policy-management, #group-management*
+**Tags:** *#aws, #terraform, #identity-management, #user-management, #policy-management*
 
 **Site Name:** registry.terraform.io
 
@@ -129,11 +129,11 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ## AI, Machine Learning, and Deep Learning
 
-**Category Tags:** #ai, #ai-governance, #ai-optimization, #ai-reliability, #ai-security, #anthopic, #apple, #artificial-intelligence, #attention-mechanism, #automation, #boosting, #causal-ai, #cloud, #cloud-computing, #coreml, #cybersecurity, #data-science, #decision-tree, #deep-learning, #developer-experience, #drug-development, #embedding, #employee-productivity, #ensemble-learning, #enterprise-architecture, #enterprise-research, #ethical-ai, #generative-ai, #genetic-research, #github-copilot, #gpt-4, #gpt-4v, #graph-machine-learning, #image-recognition, #ios, #language-model-architecture, #large-language-models, #llm, #machine-learning, #macos, #mathematical-algorithms, #math, #microsoft-research, #model-autonomy, #multimodal-data, #neural-networks, #nlp, #openai, #pattern-recognition, #positional-encoding, #predictive-text, #preparedness-framework, #private-datasets, #productivity-paradox, #python, #rag, #red-teaming, #responsible-ai, #risk-evaluation, #sklearn, #skill-based-approach, #survey-analysis, #text-embeddings, #transformer-language-model, #transformers
+**Category Tags:** #ai, #machine-learning, #generative-ai, #llm, #deep-learning
 
 ### [A Simple Implementation of Boosting Algorithm](https://blog.dailydoseofds.com/p/a-simple-implementation-of-boosting)
 
-**Tags:** *#machine-learning, #ai, #deep-learning, #python, #data-science, #generative-ai, #boosting, #decision-tree, #ensemble-learning, #sklearn*
+**Tags:** *#machine-learning, #python, #boosting, #ensemble-learning, #sklearn*
 
 **Site Name:** Daily Dose of Data Science
 
@@ -143,7 +143,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [GPT-4o System Card | OpenAI](https://openai.com/index/gpt-4o-system-card/)
 
-**Tags:** *#ai, #ai-security, #deep-learning, #gpt-4, #gpt-4v, #machine-learning, #model-autonomy, #preparedness-framework, #red-teaming, #risk-evaluation*
+**Tags:** *#ai, #ai-security, #gpt-4, #red-teaming, #risk-evaluation*
 
 **Site Name:** openai.com
 
@@ -153,7 +153,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [A Comparison of Top Embedding Libraries for Generative AI - MarkTechPost](https://www.marktechpost.com/2024/07/28/a-comparison-of-top-embedding-libraries-for-generative-ai/?amp=)
 
-**Tags:** *#embedding, #generative-ai, #llm, #text-embeddings, #nlp, #multimodal-data, #machine-learning, #ai, #ai-optimization, #ai-reliability*
+**Tags:** *#embedding, #generative-ai, #llm, #text-embeddings, #nlp*
 
 **Site Name:** MarkTechPost
 
@@ -163,7 +163,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Gen AI Increases Workloads and Decreases Productivity, Upwork Study Finds - InfoQ](https://www.infoq.com/news/2024/07/genai-hampers-productivity-study/)
 
-**Tags:** *#generative-ai, #ai, #ai-governance, #ai-optimization, #ai-reliability, #ai-security, #anthropic, #automation, #developer-experience, #ethical-ai*
+**Tags:** *#generative-ai, #ai, #developer-experience, #ai-reliability, #ai-governance*
 
 **Site Name:** InfoQ
 
@@ -173,7 +173,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [How to get started with LLMs 🤖](https://www.databites.tech/p/how-to-get-started-with-llms)
 
-**Tags:** *#ai, #llm, #openai, #generative-ai, #machine-learning, #transformers, #nlp, #anthopic, #deep-learning, #cloud-computing*
+**Tags:** *#llm, #openai, #generative-ai, #machine-learning, #transformers*
 
 **Site Name:** databites.tech
 
@@ -183,7 +183,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Fwd: AI Tooling for Software Engineers in 2024: Reality Check (Part 1)](https://newsletter.pragmaticengineer.com/p/ai-tooling-2024?isFreemail=true&post_id=146678491&publication_id=458709&r=3mtec&token=eyJ1c2VyX2lkIjo2MTAzMzgwLCJwb3N0X2lkIjoxNDY2Nzg0OTEsImlhdCI6MTcyMTE0NzM1MywiZXhwIjoxNzIzNzM5MzUzLCJpc3MiOiJwdWItNDU4NzA5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.qWt7vzH6sgdLh8m8aegJIt36NkLN3YjNyqM74JBok5A&triedRedirect=true)
 
-**Tags:** *#ai, #ai-governance, #ai-optimization, #ai-reliability, #ai-security, #anthropic, #automation, #developer-experience, #generative-ai, #github-copilot*
+**Tags:** *#ai, #generative-ai, #developer-experience, #github-copilot, #anthropic*
 
 **Site Name:** newsletter.pragmaticengineer.com
 
@@ -193,7 +193,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [SoET Report 2024](https://storage.googleapis.com/omnivore/u/317bd9e4-ce27-414f-9a8a-6554a982233b/SoETReport2024.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gke-app-internal-sa%40omnivore-production.iam.gserviceaccount.com%2F20240818%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240818T010705Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=77d3cc5bc22a119693b9aeef813eaa6020878ba8fbb8a4c757e8fcbf96f0929dfbb17d6f428f031785f11c402246f807808dc0be8be96990a7d38884c7e17b7d53ecef2c7ac543680fdf7efe0a6f20d58622b016aed8e77f3ae0c9c4f2ce30acc33c0ec4d1264e5289283ecd88eb3059593e79f1d0f805982bfcc3c366409721c0e9da132aa8e9e3fdcb393f2fa37bf72abda967e01ea2cfb8ff3f90ab4d27c9f6c5ba44d523b26937e4d5891db781d8037b77317e63b89cf5f4b305f18f7f40944333c691498fd2c2350ff53f3146a8bb168eb093a9f498a016422ba1b0abec31a0bcd0828baa848dd0cc7c437991ce19293a8e92fdac1bdab6897403398f35)
 
-**Tags:** *#ai, #ai-governance, #ai-reliability, #cloud, #cloud-computing, #cybersecurity, #data-science, #developer-experience, #enterprise-architecture, #machine-learning*
+**Tags:** *#ai, #cloud-computing, #cybersecurity, #developer-experience, #enterprise-architecture*
 
 **Site Name:** None
 
@@ -203,7 +203,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [AI Gateways Transform Experimentation into Scalable Production - The New Stack](https://thenewstack.io/ai-gateways-transform-experimentation-into-scalable-production/)
 
-**Tags:** *#ai, #ai-governance, #ai-reliability, #ai-security, #deep-learning, #llm, #machine-learning, #nlp, #openai, #responsible-ai*
+**Tags:** *#ai, #llm, #ai-security, #ai-reliability, #responsible-ai*
 
 **Site Name:** The New Stack
 
@@ -213,7 +213,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [GraphRAG: Unlocking LLM discovery on narrative private data - Microsoft Research](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)
 
-**Tags:** *#ai, #data-science, #llm, #machine-learning, #rag, #private-datasets, #graph-machine-learning, #enterprise-research, #microsoft-research, #gpt-4*
+**Tags:** *#llm, #rag, #graph-machine-learning, #private-datasets, #microsoft-research*
 
 **Site Name:** Microsoft Research
 
@@ -223,7 +223,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [A look at Apple’s new Transformer-powered predictive text model](https://jackcook.com/2023/09/08/predictive-text.html)
 
-**Tags:** *#ai, #apple, #machine-learning, #transformer-language-model, #nlp, #macos, #ios, #predictive-text, #coreml, #language-model-architecture*
+**Tags:** *#apple, #machine-learning, #predictive-text, #coreml, #nlp*
 
 **Site Name:** jackcook.com
 
@@ -233,7 +233,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [How causal artificial intelligence is revolutionizing the pharmaceutical industry](https://www.nature.com/articles/d43747-024-00075-x)
 
-**Tags:** *#ai, #ai-reliability, #ai-optimization, #ai-security, #data-science, #deep-learning, #drug-development, #machine-learning, #causal-ai, #genetic-research*
+**Tags:** *#ai, #causal-ai, #drug-development, #machine-learning, #genetic-research*
 
 **Site Name:** nature.com
 
@@ -243,7 +243,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [10 profound answers about the math behind AI - Big Think](https://bigthink.com/starts-with-a-bang/10-answers-math-artificial-intelligence/?rjnrid=648JXmK)
 
-**Tags:** *#ai, #generative-ai, #machine-learning, #large-language-models, #artificial-intelligence, #deep-learning, #data-science, #neural-networks, #pattern-recognition, #mathematical-algorithms*
+**Tags:** *#ai, #machine-learning, #mathematical-algorithms, #neural-networks, #deep-learning*
 
 **Site Name:** Big Think
 
@@ -253,7 +253,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [What exactly is an AI agent? | TechCrunch](https://techcrunch.com/2024/07/13/what-exactly-is-an-ai-agent/)
 
-**Tags:** *#ai, #ai-governance, #ai-optimization, #ai-reliability, #ai-security, #machine-learning, #nlp, #deep-learning, #enterprise-architecture, #cloud-computing*
+**Tags:** *#ai, #ai-governance, #ai-reliability, #ai-security, #machine-learning*
 
 **Site Name:** TechCrunch
 
@@ -263,7 +263,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [The Math Behind Transformers | Medium](https://medium.com/@cristianleo120/the-math-behind-transformers-6d7710682a1f)
 
-**Tags:** *#llm, #transformers, #machine-learning, #nlp, #deep-learning, #python, #math, #attention-mechanism, #image-recognition, #positional-encoding*
+**Tags:** *#transformers, #llm, #machine-learning, #attention-mechanism, #positional-encoding*
 
 **Site Name:** Medium
 
@@ -273,7 +273,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Gen AI Increases Workloads and Decreases Productivity, Upwork Study Finds - InfoQ](https://www.infoq.com/news/2024/07/genai-hampers-productivity-study/)
 
-**Tags:** *#generative-ai, #ai, #ai-security, #ai-optimization, #ai-reliability, #data-science, #survey-analysis, #employee-productivity, #productivity-paradox, #skill-based-approach*
+**Tags:** *#generative-ai, #productivity-paradox, #survey-analysis, #employee-productivity, #ai-reliability*
 
 **Site Name:** InfoQ
 
@@ -285,11 +285,11 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ## Enterprise Integration
 
-**Category Tags:** #architecture, #api-reliability, #api-security, #automation, #cloud-computing, #cyber-security, #developer-experience, #enterprise-architecture, #security, #integration-architecture
+**Category Tags:** #architecture, #enterprise-architecture, #integration-architecture, #api-security, #api-reliability
 
 ### [Architecting enterprise integrations | by Chathura Ekanayake | Jun, 2024 | Medium](https://chathura-ekanayake.medium.com/architecting-enterprise-integrations-30cc55b566fe)
 
-**Tags:** *#architecture, #api-reliability, #api-security, #automation, #cloud-computing, #cyber-security, #developer-experience, #enterprise-architecture, #security, #integration-architecture*
+**Tags:** *#architecture, #enterprise-architecture, #integration-architecture, #api-security, #api-reliability*
 
 **Site Name:** Medium
 
@@ -301,11 +301,11 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ## Security and DevOps
 
-**Category Tags:** #access-control, #application-security, #attribute-based-access-control, #authentication, #authentication-methods, #authorization, #automation, #aws, #aws-security, #biometric-authentication, #cloud-computing, #cryptography, #cyber-security, #cybersecurity, #deep-learning, #ethical-ai, #http-sessions, #json-web-token, #multifactor-authentication, #oauth-2-0, #openid-connect, #reverse-engineering, #role-based-access-control, #security, #tokens, #web-cookies, #webdev
+**Category Tags:** #security, #authentication, #authorization, #aws-security, #cyber-security
 
 ### [Revealing the Inner Structure of AWS Session Tokens | by Tal Be'ery | Jul, 2024 | Medium](https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tokens-a6c76469cba7)
 
-**Tags:** *#aws, #aws-security, #cloud-computing, #security, #ethical-ai, #cybersecurity, #reverse-engineering, #cryptography, #deep-learning, #automation*
+**Tags:** *#aws, #aws-security, #security, #cryptography, #reverse-engineering*
 
 **Site Name:** Medium
 
@@ -315,7 +315,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Securing your secrets in AWS - DEV Community](https://dev.to/aws-builders/securing-your-secrets-in-aws-kh5)
 
-**Tags:** *#aws, #cloud-computing, #cyber-security, #security, #developer-experience, #machine-to-machine-authentication, #api-security, #ci-cd, #aws-secrets-manager, #key-management*
+**Tags:** *#aws, #aws-secrets-manager, #security, #api-security, #key-management*
 
 **Site Name:** DEV Community
 
@@ -325,7 +325,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Authentication vs authorization: understanding the difference | CNCF](https://www.cncf.io/blog/2024/07/23/authentication-vs-authorization-understanding-the-difference/)
 
-**Tags:** *#security, #authentication, #authorization, #application-security, #access-control, #authentication-methods, #multifactor-authentication, #biometric-authentication, #role-based-access-control, #attribute-based-access-control*
+**Tags:** *#security, #authentication, #authorization, #access-control, #application-security*
 
 **Site Name:** CNCF
 
@@ -335,7 +335,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Demystifying cookies and tokens – Tommi Hovi | The Security blog](https://tommihovi.com/2024/05/demystifying-cookies-and-tokens/)
 
-**Tags:** *#webdev, #automation, #cyber-security, #web-cookies, #authentication, #tokens, #http-sessions, #json-web-token, #oauth-2-0, #openid-connect*
+**Tags:** *#web-cookies, #authentication, #tokens, #json-web-token, #openid-connect*
 
 **Site Name:** tommihovi.com
 
@@ -347,11 +347,11 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ## Kubernetes
 
-**Category Tags:** #automation, #aws, #azure, #cloud, #cloud-computing, #cluster-management, #coding-best-practices, #containers, #context-management, #data-science, #developer-experience, #devops, #kubeconfig, #kubectl, #kubernetes, #kubernetes-best-practices, #multiple-clusters
+**Category Tags:** #kubernetes, #kubectl, #kubeconfig, #containers, #devops
 
 ### [Kubectl Get Context : Current Context, Switching & Listing](https://spacelift.io/blog/kubectl-get-context)
 
-**Tags:** *#kubernetes, #cloud-computing, #devops, #containers, #cluster-management, #kubeconfig, #context-management, #kubectl, #multiple-clusters, #kubernetes-best-practices*
+**Tags:** *#kubernetes, #kubectl, #kubeconfig, #cluster-management, #multiple-clusters*
 
 **Site Name:** Spacelift
 
@@ -363,11 +363,11 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ## Python
 
-**Category Tags:** #conda, #environment, #packages, #pip, #pip3, #python, #requirements, #venv, #virtualenv, #virtualization, #uv, #package-installer, #rust, #dependency-management, #development-tools, #python-package, #fast-installer, #project-management, #high-confidence
+**Category Tags:** #python, #package-installer, #dependency-management, #virtualenv, #uv
 
 ### [python - From conda create requirements.txt for pip3 - Stack Overflow](https://stackoverflow.com/questions/50777849/from-conda-create-requirements-txt-for-pip3)
 
-**Tags:** *#conda, #virtualization, #pip3, #virtualenv, #requirements, #environment, #pip, #venv, #python, #packages*
+**Tags:** *#python, #conda, #requirements, #pip, #virtualenv*
 
 **Site Name:** Stack Overflow
 
@@ -377,7 +377,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Forget `pip install`, Use This Instead | by Benedict Neo | bitgrit Data Science Publication | Medium](https://medium.com/bitgrit-data-science-publication/forget-pip-install-use-this-instead-754863c58f1e)
 
-**Tags:** *#python, #uv, #package-installer, #rust, #dependency-management, #development-tools, #python-package, #fast-installer, #project-management, #high-confidence*
+**Tags:** *#python, #uv, #package-installer, #dependency-management, #python-package*
 
 **Site Name:** bitgrit Data Science Publication
 
@@ -389,11 +389,11 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ## Developer Tools & Productivity
 
-**Category Tags:** #api, #aws, #awscli, #bat, #btop, #cat, #cloud, #coding, #ctop, #developer-productivity, #development, #devops, #dive, #dust, #markdown, #open-source, #shell, #terminal, #tools, #workflow-productivity, #data-analysis, #devx, #participant-demographics, #response-rate, #salary-information, #stack-overflow, #survey, #survey-difficulty, #survey-length, #user-experience
+**Category Tags:** #tools, #developer-productivity, #terminal, #shell, #markdown
 
 ### [New Computer Setup for Techies 2024: NeoVim and Ollama and fish, oh my! | by Melissa Richard | Medium](https://medium.com/@devhellomello/new-computer-setup-for-techies-2024-neovim-and-ollama-and-fish-oh-my-60cf3879bad8)
 
-**Tags:** *#developer-productivity, #tools, #cloud, #coding, #development, #devops, #terminal, #markdown, #api, #open-source, #workflow-productivity*
+**Tags:** *#developer-productivity, #tools, #terminal, #markdown, #open-source*
 
 **Site Name:** Medium
 
@@ -403,7 +403,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Command Line Tools I use on a Mac | by Brian Schlining | May, 2024 | Medium](https://schlining.medium.com/command-line-tools-i-use-on-a-mac-b47c98efd0af)
 
-**Tags:** *#aws, #shell, #tools, #awscli, #bat, #cat, #btop, #ctop, #dive, #dust*
+**Tags:** *#shell, #tools, #awscli, #bat, #btop*
 
 **Site Name:** Medium
 
@@ -413,7 +413,7 @@ tags: ["access-control", "ai", "ai-governance", "ai-optimization", "ai-reliabili
 
 ### [Methodology | 2024 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2024/methodology/)
 
-**Tags:** *#devx, #survey, #data-analysis, #stack-overflow, #salary-information, #user-experience, #response-rate, #survey-length, #survey-difficulty, #participant-demographics*
+**Tags:** *#devx, #survey, #data-analysis, #stack-overflow, #user-experience*
 
 **Site Name:** survey.stackoverflow.co
 

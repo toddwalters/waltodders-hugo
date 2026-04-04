@@ -1,7 +1,7 @@
 ---
 title: Lucky To Make It Once A Month
 date: 2024-07-02T13:23:05-0400
-tags: ["advanced-ai", "ai", "ai-governance", "ai-optimization", "ai-reliability", "ai-security", "anthropic", "automation", "azure", "claude", "cloud-computing", "cyber-security", "data-science", "developer-experience", "ethical-ai", "enterprise-architecture", "fin-ops", "generative-ai", "github-repo", "gtp-4", "juypter-notebooks", "langchain", "llm", "machine-learning", "nlp", "openai", "personal-development", "projects", "python", "rag", "responsible-ai", "security"]
+tags: ["ai", "llm", "cloud-computing", "cyber-security", "developer-experience"]
 ---
 
 Wow.  So it's be another long while, since I got around to creating another post. This one is another link list, based what has caught my eye over the last month.  Can't say I have read them all, but good list to come back to as time permits.  
@@ -57,7 +57,7 @@ Something I did decide to do based on having all of these articles, was to creat
 
 ## Artificial Intelligence and Machine Learning
 
-**Category Tags:** *#ai, #advanced-ai, #ai-applications, #ai-governance, #ai-optimization, #ai-reliability, #ai-security, #ai-trust, #responsible-ai, #ethical-ai, #generative-ai, #llm, #machine-learning, #nlp, #transformer, #neural-network, #langchain, #chatgpt, #gpt-4, #data-science, #data-protection, #data-security, #dataset-contamination, #model-overfitting, #learning, #visualization*
+**Category Tags:** *#ai, #generative-ai, #llm, #machine-learning, #ai-security*
 
 -----
 
@@ -83,7 +83,7 @@ Something I did decide to do based on having all of these articles, was to creat
 
 **Summary:** The article discusses the total cost of ownership (TCO) for deploying Generative AI models in production, emphasizing that costs go beyond just raw compute pricing and also includes factors such as container services, networking, load balancing, autoscaling, and more. Hidden costs can impact TCO, with self-built solutions potentially being initially cheaper but requiring additional expenses for development time and maintenance, especially when hiring skilled professionals. The article suggests that opting for managed services with integrated support may be more cost-effective in the long run, as understanding the full cost of deploying Generative AI models is crucial for making informed decisions.
 
-**Tags:** *\#generative-ai, \#tco, \#infra-costs", \#deployment-strategies, \#operational-efficiency*
+**Tags:** *\#generative-ai, \#tco, \#infra-costs, \#deployment-strategies, \#operational-efficiency*
 
 ### [What We Learned from a Year of Building with LLMs (Part I)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/)
 
@@ -121,7 +121,7 @@ Something I did decide to do based on having all of these articles, was to creat
 
 **Summary:** The article delves deep into recent advancements in Large Language Models, exploring various model architectures such as Encoder-Only, Decoder-Only, and Encoder-Decoder models. It discusses the performance comparison between Causal Decoder (CD) and Encoder-Decoder (ED) models, highlighting key findings from a study on language model architecture and pre-training objectives. Additionally, the article touches on important factors like training cost, emergent abilities in LLMs, in-context learning from prompts, efficiency optimization, and the
 
-**Tags:** *\#llm, \#encoder-decoder-models, \#ai-optimization", \#ai*
+**Tags:** *\#llm, \#encoder-decoder-models, \#ai-optimization, \#ai*
 
 ### [[2406.11903] A Survey of Large Language Models for Financial Applications: Progress, Prospects and Challenges](https://arxiv.org/abs/2406.11903)
 
@@ -169,7 +169,7 @@ Something I did decide to do based on having all of these articles, was to creat
 
 **Summary:** The article discusses the author's keynote at the AI Engineer World's Fair, where they highlighted advancements in the LLM space since the previous AI Engineer Summit 8 months ago. The author focused on breaking the GPT-4 barrier and discussed various models available in the space, emphasizing the need for responsible use and open challenges in AI engineering. They also touched on the AI trust crisis, prompt injection issues, and the concept of "slop" - unrequested and unreviewed AI-generated content.
 
-**Tags:** *\#ai-engineering, \#llm, \#ai-trust, \#gtp4, #ai-responsible-use*
+**Tags:** *\#ai-engineering, \#llm, \#ai-trust, \#gpt-4, \#responsible-ai*
 
 ### [Build Rag With Llamaindex To Make LLM Answer About Yourself, Like in an Interview or About General InformationI](https://pub.towardsai.net/build-rag-with-llamaindex-to-make-llm-answer-about-yourself-like-in-interview-or-about-general-68bb2037f8b6?gi=d379a686b47c)
 
@@ -179,7 +179,7 @@ Something I did decide to do based on having all of these articles, was to creat
 
 **Summary:** The article discusses the implementation of a RAG (Retrieved Augmentation Generation) pipeline using Llamaindex for building chat applications with LLMs like Cohere. It explains the process of setting up the pipeline, loading documents, parsing text into nodes, obtaining vector embeddings, and using a chat engine with a retrieval strategy. The pipeline leverages Cohere for LLM and Qdrant for storing vector embeddings, allowing for personalized responses based on user queries. The article also provides code examples for
 
-**Tags:** *\#nlp, \#ai, \#rag, \#chatbot
+**Tags:** *\#nlp, \#ai, \#rag, \#chatbot*
 
 ### [Build your own Large Language Model (LLM) From Scratch Using PyTorch](https://pub.towardsai.net/build-your-own-large-language-model-llm-from-scratch-using-pytorch-9e9945c24858?gi=a3b1cede2202)
 
@@ -235,7 +235,7 @@ Something I did decide to do based on having all of these articles, was to creat
 
 ## Cloud Computing and Infrastructure
 
-**Categorical Tags:** *#cloud-computing, #cloud, #azure, #openai, #cloud-migration, #platform-engineering, #platform-strategies, #platform-integration, #internal-developer-platforms*
+**Categorical Tags:** *#cloud-computing, #cloud, #platform-engineering, #cloud-migration, #internal-developer-platforms*
 
 -----
 
@@ -339,7 +339,7 @@ The impact of the attack is
 
 ## Development and Programming
 
-**Categorical Tags:** *#programming, #python, #github-repo, #developer-productivity, #juypter-notebooks, #tools, #devx, #projects, #api, #learning, #skills-development, #personal-growth, #professional-development*
+**Categorical Tags:** *#programming, #python, #tools, #devx, #projects*
 
 -----
 
@@ -399,7 +399,7 @@ The impact of the attack is
 
 **Summary:** Claude Engineer is a CLI tool that utilizes Anthropic's Claude-3.5-Sonnet model to aid in software development tasks by combining a large language model with file system operations and web search capabilities. Its features include interactive chat interface, file system operations, web search using Tavily API, syntax highlighting, project structure management, and code analysis. To install Claude Engineer, clone the repository, install dependencies, and set up your Anthropic and Tavily API keys within the script.
 
-**Tags:** *\#tools, \#claude, \#anthropic, \#api, \#github-repo, \#projects*
+**Tags:** *\#tools, \#claude, \#anthropic, \#github-repo, \#projects*
 
 ### [Why we no longer use LangChain for building our AI agents](https://www.octomind.dev/blog/why-we-no-longer-use-langchain-for-building-our-ai-agents)
 
@@ -419,7 +419,7 @@ The impact of the attack is
 
 **Summary:** Thread is a Jupyter alternative that integrates an AI copilot into your Jupyter Notebook editing experience.  Best of all, Thread runs locally and can be used for free with Ollama or your own API key.
 
-**Tags:** *\#github-repo, \#tools, \#juypter-notebooks, \#projects*
+**Tags:** *\#github-repo, \#tools, \#jupyter-notebook, \#projects*
 
 ### [Every Way To Get Structured Output From LLMs](https://www.boundaryml.com/blog/structured-output-from-llms)
 
@@ -439,4 +439,4 @@ The impact of the attack is
 
 **Summary:** The article discusses five favorite ways to keep technical skills sharp, including working on side projects to experiment with new language features, practicing with Koans to find enlightenment in programming, engaging in coding Katas like Gilded Rose and Vending Machine, researching for weekly interesting links posts, and consuming video content from sources like Pluralsight and Udemy to stay updated with new technologies. The author emphasizes the importance of continuously updating technical skills due to the rapid pace of change in technology, advocating for proactive learning
 
-**Tags:** *\#learning", \#skills-development", \#personal-growth, \#professional-development*
+**Tags:** *\#learning, \#skills-development, \#personal-growth, \#professional-development*
