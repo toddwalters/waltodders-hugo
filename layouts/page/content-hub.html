@@ -1,0 +1,75 @@
+{{ define "header" }}{{ end }}
+
+{{ define "main" }}
+{{ $filter := .Params.contentTypeFilter }}
+{{ $pages := sort (where (where (where site.RegularPages "Section" "post") "Params.contentType" $filter) "Params.retired" "!=" true) "Date" "desc" }}
+{{ $featured := where $pages "Params.featured" true }}
+
+<main class="signals-page signals-hub signals-hub-{{ $filter }}">
+  <section class="signals-shell signals-page-hero">
+    <p class="signals-kicker">{{ .Title }}</p>
+    <h1>{{ .Title }}</h1>
+    <div class="signals-page-intro">{{ .Content }}</div>
+  </section>
+
+  {{ if gt (len $featured) 0 }}
+    <section class="signals-shell signals-section">
+      <div class="signals-section-heading">
+        <p class="signals-kicker">Featured</p>
+        <h2>{{ if eq $filter "writing" }}Selected pieces that best capture the voice and point of view behind the site.{{ else }}Curated posts that feel most like a field guide to what is changing.{{ end }}</h2>
+      </div>
+      <div class="signals-feature-grid">
+        {{ range first 3 $featured }}
+          <article class="signals-feature-card">
+            <p class="signals-card-meta">
+              <span class="signals-badge">{{ title (.Params.contentType | default "writing") }}</span>
+              <span>{{ .Date.Format "January 2, 2006" }}</span>
+            </p>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Params.summary | default .Summary }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  <section class="signals-shell signals-section">
+    <div class="signals-split-header">
+      <div>
+        <p class="signals-kicker">{{ if eq $filter "writing" }}All Writing{{ else }}All Signals{{ end }}</p>
+        <h2>{{ if eq $filter "writing" }}Essays, technical reflections, and ideas worth sitting with a little longer.{{ else }}Annotated roundups, reading notes, and signal scans across the territory this site keeps returning to.{{ end }}</h2>
+      </div>
+      <p class="signals-count">{{ len $pages }} posts</p>
+    </div>
+    {{ if gt (len $pages) 0 }}
+      <div class="signals-hub-list">
+        {{ range $pages }}
+          <article class="signals-hub-entry">
+            <div class="signals-hub-entry-main">
+              <p class="signals-card-meta">
+                <span class="signals-badge">{{ title (.Params.contentType | default "writing") }}</span>
+                <span>{{ .Date.Format "January 2, 2006" }}</span>
+              </p>
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p>{{ .Params.summary | default .Summary }}</p>
+            </div>
+            {{ with .Params.tags }}
+              <div class="signals-inline-tags">
+                {{ range first 3 . }}
+                  <a href="{{ printf "/tags/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>
+                {{ end }}
+              </div>
+            {{ end }}
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <article class="signals-empty-state">
+        <p class="signals-kicker">{{ if eq $filter "writing" }}Fresh Start{{ else }}Signal Reset{{ end }}</p>
+        <h2>{{ if eq $filter "writing" }}The older catalog has been retired so the next published essays can define the voice of the site.{{ else }}The older roundup posts are retired while I rethink this section around actual perspective and synthesis.{{ end }}</h2>
+        <p>{{ if eq $filter "writing" }}What comes next here should teach, clarify, argue, or tell a useful story.{{ else }}Future signals will still curate what I am noticing, but with more explanation, narrative, and judgment behind what makes the cut.{{ end }}</p>
+      </article>
+    {{ end }}
+  </section>
+</main>
+{{ end }}

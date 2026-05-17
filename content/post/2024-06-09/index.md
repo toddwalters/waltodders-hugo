@@ -1,6 +1,14 @@
 ---
 title: It's Deep Learning All The Way Down
 date: 2024-06-09
+contentType: writing
+featured: true
+retired: true
+build:
+  list: never
+  render: never
+  publishResources: false
+summary: Notes from a deep learning course and a set of references that sharpen the foundations behind embeddings, transformers, and modern AI systems.
 tags: ["genai", "llm", "deep-learning", "anthropic", "embedding"]
 ---
 

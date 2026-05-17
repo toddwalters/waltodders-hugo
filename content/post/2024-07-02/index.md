@@ -1,6 +1,14 @@
 ---
 title: Lucky To Make It Once A Month
 date: 2024-07-02T13:23:05-0400
+contentType: signal
+featured: true
+retired: true
+build:
+  list: never
+  render: never
+  publishResources: false
+summary: A wide-ranging signal scan across AI, cloud platforms, cybersecurity, and developer tools, organized like a technical field briefing.
 tags: ["ai", "llm", "cloud-computing", "cyber-security", "developer-experience"]
 ---
 
