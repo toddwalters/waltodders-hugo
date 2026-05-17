@@ -16,6 +16,14 @@ My career has centered on cloud foundations, platform design, infrastructure, go
 
 That perspective shapes how I look at AI as well. I’m interested in the gap between the polished demo and the system that has to survive contact with actual users, actual controls, and actual long-term ownership.
 
+## Selected Experience
+
+- Enterprise cloud architecture across AWS, Google Cloud, Azure, private cloud, and hybrid environments.
+- Cloud foundation and platform work in regulated enterprise settings, including governance, security guardrails, service enablement, and operating model design.
+- Large-scale cloud automation and account provisioning patterns, with an emphasis on repeatability, compliance, and developer usability.
+- Platform engineering background across OpenShift, Linux, virtualization, infrastructure services, and cloud-native application patterns.
+- Long-running interest in how AI changes architecture, developer workflows, security expectations, and the practical shape of enterprise technology.
+
 ## Why This Site Exists
 
 I wanted a place to capture useful writing, connect dots across AI and cloud, and build a body of work that reflects how I think. Sometimes that means a deeper essay. Sometimes it means a curated signal post that surfaces a cluster of ideas worth revisiting later.
