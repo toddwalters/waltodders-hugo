@@ -1,0 +1,163 @@
+{{ define "header" }}{{ end }}
+
+{{ define "main" }}
+{{ $visiblePosts := where (where site.RegularPages "Section" "post") "Params.retired" "!=" true }}
+{{ $allPosts := sort (where $visiblePosts "Draft" false) "Date" "desc" }}
+{{ if hugo.IsServer }}
+  {{ $allPosts = sort $visiblePosts "Date" "desc" }}
+{{ end }}
+{{ $featuredPosts := first 3 (where $allPosts "Params.featured" true) }}
+{{ $writingPosts := first 3 (where $allPosts "Params.contentType" "writing") }}
+{{ $signalPosts := first 4 (where (where $allPosts "Params.contentType" "signal") "Params.featured" "!=" true) }}
+
+<main class="signals-home">
+  <section class="signals-shell signals-hero">
+    <div class="signals-hero-copy">
+      <p class="signals-kicker">Todd Walters</p>
+      <h1>Signals on AI, Cloud, and Architecture</h1>
+      <p class="signals-lede">Writing and curated notes on AI systems, cloud platforms, security, and the practical work of making technology useful.</p>
+      <div class="signals-actions">
+        <a class="signals-button signals-button-primary" href="{{ "/writing/" | relLangURL }}">Read the writing</a>
+        <a class="signals-button signals-button-secondary" href="{{ "/signals/" | relLangURL }}">Browse signals</a>
+      </div>
+      <p class="signals-intro">This site is where I track meaningful shifts in AI, cloud, architecture, and developer workflows. Some posts are essays. Some are curated signals. All of them are attempts to separate noise from what matters.</p>
+    </div>
+    <aside class="signals-hero-panel">
+      <div class="signals-avatar-wrap">
+        <img class="signals-avatar" src="{{ .Site.Params.logo | relURL }}" alt="Illustrated portrait of Todd Walters">
+      </div>
+      <p class="signals-panel-title">Enterprise cloud architect. Writer. Signal tracker.</p>
+      <ul class="signals-marker-list">
+        <li>AI</li>
+        <li>Cloud</li>
+        <li>Architecture</li>
+      </ul>
+    </aside>
+  </section>
+
+  {{ if gt (len $featuredPosts) 0 }}
+    <section class="signals-shell signals-section">
+      <div class="signals-section-heading">
+        <p class="signals-kicker">Featured Signals</p>
+        <h2>A few pieces that best represent how I think about systems, change, and the technologies worth paying attention to.</h2>
+      </div>
+      <div class="signals-feature-grid">
+        {{ range $featuredPosts }}
+          <article class="signals-feature-card">
+            <p class="signals-card-meta">
+              <span class="signals-badge">{{ title (.Params.contentType | default "writing") }}</span>
+              <span>{{ .Date.Format "January 2, 2006" }}</span>
+            </p>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Params.summary | default .Summary }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  {{ else }}
+    <section class="signals-shell signals-section">
+      <article class="signals-empty-state">
+        <p class="signals-kicker">Relaunch In Progress</p>
+        <h2>The old catalog is retired. New work is on the way.</h2>
+        <p>I’m rebuilding this site around sharper writing, clearer points of view, and more of my own teaching, synthesis, and judgment. The refreshed structure is live first. The new essays and signals come next.</p>
+      </article>
+    </section>
+  {{ end }}
+
+  <section class="signals-shell signals-section">
+    <div class="signals-split-header">
+      <div>
+        <p class="signals-kicker">Latest Writing</p>
+        <h2>Longer-form posts, technical reflections, and ideas worth following past the headline.</h2>
+      </div>
+      <a class="signals-text-link" href="{{ "/writing/" | relLangURL }}">See all writing</a>
+    </div>
+    {{ if gt (len $writingPosts) 0 }}
+      <div class="signals-stack">
+        {{ range $writingPosts }}
+          <article class="signals-stack-card">
+            <p class="signals-card-meta">
+              <span class="signals-badge">Writing</span>
+              <span>{{ .Date.Format "January 2, 2006" }}</span>
+            </p>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Params.summary | default .Summary }}</p>
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <article class="signals-empty-state">
+        <p class="signals-empty-note">No legacy writing is being carried forward. The next pieces published here will set the tone for what this site becomes.</p>
+      </article>
+    {{ end }}
+  </section>
+
+  <section class="signals-shell signals-section">
+    <div class="signals-split-header">
+      <div>
+        <p class="signals-kicker">Recent Signals</p>
+        <h2>Curated reading, annotated links, and patterns emerging across AI, cloud, security, and tooling.</h2>
+      </div>
+      <a class="signals-text-link" href="{{ "/signals/" | relLangURL }}">Browse all signals</a>
+    </div>
+    {{ if gt (len $signalPosts) 0 }}
+      <div class="signals-list-grid">
+        {{ range $signalPosts }}
+          <article class="signals-list-card">
+            <p class="signals-card-meta">
+              <span class="signals-badge">Signal</span>
+              <span>{{ .Date.Format "January 2, 2006" }}</span>
+            </p>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Params.summary | default .Summary }}</p>
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <article class="signals-empty-state">
+        <p class="signals-empty-note">The previous roundup-style link posts have been retired. Future signal posts will lean more on synthesis, interpretation, and actual perspective.</p>
+      </article>
+    {{ end }}
+  </section>
+
+  <section class="signals-shell signals-section">
+    <div class="signals-section-heading">
+      <p class="signals-kicker">What I Track</p>
+      <h2>The recurring themes behind the writing and the curation.</h2>
+    </div>
+    <div class="signals-topic-grid">
+      <article class="signals-topic-card">
+        <h3>AI Systems</h3>
+        <p>Model behavior, adoption, reliability, governance, and the distance between demo quality and production reality.</p>
+      </article>
+      <article class="signals-topic-card">
+        <h3>Cloud Platforms</h3>
+        <p>Architecture, operating models, platform leverage, and what durable cloud decisions look like over time.</p>
+      </article>
+      <article class="signals-topic-card">
+        <h3>Architecture</h3>
+        <p>Patterns, boundaries, integrations, and the choices that shape how systems age.</p>
+      </article>
+      <article class="signals-topic-card">
+        <h3>Security</h3>
+        <p>Practical controls, platform guardrails, and the operational details that turn principles into reality.</p>
+      </article>
+      <article class="signals-topic-card">
+        <h3>Developer Workflows</h3>
+        <p>Tools, automation, and the changing shape of how technical work gets done day to day.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="signals-shell signals-about-strip">
+    <div>
+      <p class="signals-kicker">About</p>
+      <h2>I’m Todd Walters, an enterprise cloud architect writing about AI, cloud, architecture, and the practical signals behind where technology is actually going.</h2>
+    </div>
+    <div class="signals-about-actions">
+      <a class="signals-button signals-button-primary" href="{{ "/about/" | relLangURL }}">More about me</a>
+      <a class="signals-button signals-button-secondary" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}">RSS</a>
+    </div>
+  </section>
+</main>
+{{ end }}

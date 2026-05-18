@@ -1,6 +1,13 @@
 ---
 title: Where Did All The Time Go?
 date: 2024-07-15T20:01:17
+contentType: signal
+retired: true
+build:
+  list: never
+  render: never
+  publishResources: false
+summary: Another signal-heavy roundup focused on state-of-AI thinking, AWS security patterns, and tools worth exploring more deeply.
 tags: ["ai", "llm", "aws", "security", "machine-learning"]
 ---
 

@@ -2,6 +2,13 @@
 title: Adventures in Hugo-land
 subtitle: Or How to Spend Your Holiday Break Learning About Hugo and Deploying Your First Site
 date: 2023-12-21
+contentType: writing
+retired: true
+build:
+  list: never
+  render: never
+  publishResources: false
+summary: A practical first-build story about learning Hugo, wiring up GitHub Pages, and turning a holiday project into a live site.
 tags: ["hugo", "git", "github", "github actions", "github pages"]
 ---
 

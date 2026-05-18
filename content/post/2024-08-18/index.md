@@ -1,6 +1,14 @@
 ---
 title: Dog Days of Summer, What Does It Mean?
 date: 2024-08-18T13:35:05
+contentType: signal
+featured: true
+retired: true
+build:
+  list: never
+  render: never
+  publishResources: false
+summary: A late-summer briefing on Terraform, AI tooling, security mechanics, and the kinds of enterprise architecture patterns that stick.
 tags: ["terraform", "ai", "security", "python", "developer-productivity"]
 ---
 

@@ -1,0 +1,68 @@
+{{ define "header" }}{{ end }}
+
+{{ define "main" }}
+{{ $topics := .Site.Taxonomies.tags.ByCount }}
+
+<main class="signals-page signals-topics-page">
+  <section class="signals-shell signals-page-hero">
+    <p class="signals-kicker">{{ .Title }}</p>
+    <h1>{{ .Title }}</h1>
+    <div class="signals-page-intro">{{ .Content }}</div>
+  </section>
+
+  <section class="signals-shell signals-section">
+    <div class="signals-section-heading">
+      <p class="signals-kicker">Focus Areas</p>
+      <h2>The broad lanes that keep showing up across the site.</h2>
+    </div>
+    <div class="signals-topic-grid">
+      <article class="signals-topic-card">
+        <h3>AI Systems</h3>
+        <p>Models, embeddings, RAG, reliability, governance, and the practical realities of AI adoption.</p>
+      </article>
+      <article class="signals-topic-card">
+        <h3>Cloud Platforms</h3>
+        <p>AWS, Azure, GCP, platform foundations, and the architecture choices that shape long-term leverage.</p>
+      </article>
+      <article class="signals-topic-card">
+        <h3>Architecture</h3>
+        <p>Enterprise patterns, integration choices, and the system design decisions that age well or badly.</p>
+      </article>
+      <article class="signals-topic-card">
+        <h3>Security</h3>
+        <p>Guardrails, IAM, secrets, platform safety, and security patterns that matter in practice.</p>
+      </article>
+      <article class="signals-topic-card">
+        <h3>Developer Workflows</h3>
+        <p>Automation, tools, notebooks, agents, and the mechanics of getting better technical work done.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="signals-shell signals-section">
+    <div class="signals-split-header">
+      <div>
+        <p class="signals-kicker">All Topics</p>
+        <h2>Every tag still lives here, but the framing is more useful than a raw tag dump.</h2>
+      </div>
+      <a class="signals-text-link" href="{{ "/tags/" | relLangURL }}">Open the full tag index</a>
+    </div>
+    {{ if gt (len $topics) 0 }}
+      <div class="signals-tag-cloud">
+        {{ range $topics }}
+          <a class="signals-topic-pill" href="{{ .Page.RelPermalink }}">
+            <span>{{ .Page.Title }}</span>
+            <small>{{ .Count }}</small>
+          </a>
+        {{ end }}
+      </div>
+    {{ else }}
+      <article class="signals-empty-state">
+        <p class="signals-kicker">Topic Map Coming</p>
+        <h2>The topic index will fill back in as new writing goes live.</h2>
+        <p>Right now the old posts are retired, so the next set of published pieces will rebuild the topic map from stronger, more personal work.</p>
+      </article>
+    {{ end }}
+  </section>
+</main>
+{{ end }}

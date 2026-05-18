@@ -1,6 +1,6 @@
 baseURL = 'http://waltodders.com'
 languageCode = 'en-us'
-title = 'Todd Walters Blog'
+title = 'Todd Walters'
 
 [author]
   name = "Todd Walters"
@@ -25,6 +25,7 @@ pygmentsCodefencesGuessSyntax = true
   delayDisqus = true
   disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
   favicon = "img/favicon-me.ico"
+  homeTitle = "Signals on AI, Cloud, and Architecture"
   logo = "img/avatar-icon-comic.png" # Expecting square dimensions
   mainSections = ["post","posts"]
   readingTime = true
@@ -41,16 +42,21 @@ pygmentsCodefencesGuessSyntax = true
       website = "https://waltodders.com"
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
+    name = "Writing"
+    url = "writing/"
     weight = 1
 
 [[menu.main]]
+    name = "Signals"
+    url = "signals/"
+    weight = 2
+
+[[menu.main]]
     name = "About"
-    url = "page/about/"
+    url = "about/"
     weight = 3
 
 [[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+    name = "Topics"
+    url = "topics/"
+    weight = 4

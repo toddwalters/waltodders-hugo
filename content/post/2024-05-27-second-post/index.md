@@ -1,6 +1,13 @@
 ---
 title: It's Been A While
 date: 2024-05-27T10:56:18-04:00
+contentType: signal
+retired: true
+build:
+  list: never
+  render: never
+  publishResources: false
+summary: A return-to-writing roundup on cloud providers, generative AI, and a few of the articles that kicked this site back into motion.
 tags: ["cloud", "aws", "azure", "gcp", "genai"]
 ---
 
@@ -56,8 +63,6 @@ I have decided to at least start capturing the articles I have come across that 
 ## **Conclusion:**
 
 Out of all of the articles the one that is the most on my mind is the IBM Buying HashiCorp article.  Why?  Simply because I myself am currently trying to figure out whether moving to something like Terraform or OpenTofu is the right thing to do right now.  I struggle pivoting away from the native IaC offerings, at least from Azure and AWS (seems to me at least last time I check Google doesn't really like there own IaC solution and would rather folks just use Terraform).  We have dedicated cloud infrastructure teams that are focused on each of the cloud platforms each with expertise in the native IaC offering within each of the cloud platforms.  Azure Bicep is a really powerful and robust offering within Azure, which makes pivoting to a 3rd party offering in Azure difficult, even though Biceps is essentially Azure Only.  With AWS, CloudFormation is nice, but if you ever have to actually introduce logic in your CloudFormation templates it gets ugly fast, and yes I know there is the CDK and I can get the power of the programming language of my choice, but then I have try and standardize on a language, a divisive effort on its own, and then upskill everyone on CDK and a language.  Terraform bring with it the fact that most everyone that has worked with any of the CSP's deploying cloud native applications and infrastructure has had some exposure to Terraform, which make it attractive to move towards from common solution perspective.  In my mind our biggest reason to move toward a 3rd party IaC solution would be maturity and expansion of multi-cloud development and architectures in an enterprise cloud infrastructure environment where no cross-cloud centralized deployment mechanism exists. I will leave it at that for now.
-
-
 
 
 

@@ -18,13 +18,19 @@
         </ul>
       {{ end }}
 
-      <article role="main" class="blog-post">
+      <article role="main" class="blog-post signals-post">
+        {{ with .Params.contentType }}
+          <p class="signals-post-type">{{ title . }}</p>
+        {{ end }}
+        {{ with .Params.summary }}
+          <p class="signals-post-summary">{{ . }}</p>
+        {{ end }}
         {{ .Content }}
 
         {{ if .Params.tags }}
           <div class="blog-tags">
             {{ range .Params.tags }}
-              <a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+              <a href="{{ printf "/tags/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>&nbsp;
             {{ end }}
           </div>
         {{ end }}

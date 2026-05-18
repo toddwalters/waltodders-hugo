@@ -1,6 +1,13 @@
 ---
 title: Born on the 4th of July
 date: 2024-07-03T21:40:21
+contentType: signal
+retired: true
+build:
+  list: never
+  render: never
+  publishResources: false
+summary: A holiday-week reading list spanning AI patterns, open source tooling, responsible AI, and practical data science curiosities.
 tags: ["ai", "llm", "developer-experience", "responsible-ai", "data-science"]
 ---
 
