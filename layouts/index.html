@@ -1,7 +1,11 @@
 {{ define "header" }}{{ end }}
 
 {{ define "main" }}
-{{ $allPosts := sort (where (where site.RegularPages "Section" "post") "Params.retired" "!=" true) "Date" "desc" }}
+{{ $visiblePosts := where (where site.RegularPages "Section" "post") "Params.retired" "!=" true }}
+{{ $allPosts := sort (where $visiblePosts "Draft" false) "Date" "desc" }}
+{{ if hugo.IsServer }}
+  {{ $allPosts = sort $visiblePosts "Date" "desc" }}
+{{ end }}
 {{ $featuredPosts := first 3 (where $allPosts "Params.featured" true) }}
 {{ $writingPosts := first 3 (where $allPosts "Params.contentType" "writing") }}
 {{ $signalPosts := first 4 (where (where $allPosts "Params.contentType" "signal") "Params.featured" "!=" true) }}

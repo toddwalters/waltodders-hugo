@@ -2,7 +2,11 @@
 
 {{ define "main" }}
 {{ $filter := .Params.contentTypeFilter }}
-{{ $pages := sort (where (where (where site.RegularPages "Section" "post") "Params.contentType" $filter) "Params.retired" "!=" true) "Date" "desc" }}
+{{ $visiblePosts := where (where (where site.RegularPages "Section" "post") "Params.contentType" $filter) "Params.retired" "!=" true }}
+{{ $pages := sort (where $visiblePosts "Draft" false) "Date" "desc" }}
+{{ if hugo.IsServer }}
+  {{ $pages = sort $visiblePosts "Date" "desc" }}
+{{ end }}
 {{ $featured := where $pages "Params.featured" true }}
 
 <main class="signals-page signals-hub signals-hub-{{ $filter }}">
